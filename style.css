@@ -1,0 +1,291 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo",sans-serif;
+}
+
+#header{
+    height: 40px;
+    background-color: #f5f5f5;
+    display: flex;
+
+}
+
+
+#email
+{
+    fill: #252525;
+    height: 33%;
+    text-align: center;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 118px;
+}
+
+#arroba
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7px; 
+    padding-left: 6px;
+    font-size: 13px;
+    padding-right:45px; 
+}
+
+#Free
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7px; 
+    padding-left: 6px;
+    font-size: 13px;
+}
+
+#face
+{
+    fill: #252525;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 360px;
+}
+
+.X
+{
+    fill: #252525;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.top_language{
+    display: inline-flex;
+}
+
+#Ingles{
+    display:flex;
+    padding-top: 4%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#Image{
+    margin-top: 10px;
+    padding-left: 30px;
+    height: 30%;
+    display: flex;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    display:inline-block;
+  }
+  
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista1 {
+    display: inline-block;
+  }
+  
+  .lista1:hover {
+    background: #333;
+  }
+  
+  .lista1:hover .lista2 {
+    display: block;
+  }
+  
+  .lista2 {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  
+  .lista-link {
+    background: #555;
+    display: block;
+  }
+  
+  .link {
+    display:block !important;
+  }
+  
+  .lista-link:hover {
+    background: #666;
+  }
+
+#Login{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#Person{
+    height: 30%;
+    margin-top: 10px;    
+    padding-left: 5%;
+}
+
+
+
+#main
+{
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr;
+    grid-template-rows: 80px 80px 413px 271px;
+}
+
+#main>div
+{
+    border:solid 1px;
+
+}
+
+#Logo
+{
+    grid-column: 2;
+}
+
+#Nav
+{
+    grid-column: 3/6;
+    
+}
+
+#contact{
+    padding-right: 0;
+}
+
+.prox_pag{
+    font-size: 15px;
+    font-family: "Cairo",sans-serif;
+    padding: 15px;
+}
+
+#svggg{
+    font-size: 5px;
+    
+}
+
+#svgggg{
+    font-size: 5px;
+    padding-left: 0%;
+}
+
+#item1{
+    font-size: 10px;
+    color: #555;
+    padding-right: 0%;
+}
+
+#dindin{
+    font-size: 10px;
+    padding-left: 0%;
+    display:inline;
+}
+
+
+
+
+
+
+
+#Menu
+{
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+#All{
+    background-color: #7fad39;;
+    color: white;
+    padding-right: 45px;
+}
+
+ul{
+    list-style: none;
+}
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    display:inline-block;
+  }
+  
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista3 {
+    display: inline-block;
+  }
+  
+  .lista3:hover {
+    background: #333;
+  }
+  
+  .lista3:hover .lista2 {
+    display: block;
+  }
+  
+  .lista4 {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  
+  .lista-link {
+    background: #555;
+    display: block;
+  }
+  
+  .link {
+    display:block !important;
+  }
+  
+  .lista-link:hover {
+    background: #666;
+  }
+
+
+
+
+
+
+
+#Busca 
+{
+    grid-column: 3/6;
+    grid-row: 2;
+}
+
+#Banner
+{
+    grid-column: 3/6;
+    grid-row: 3;
+}
+
+#prod01 { grid-row: 4;   
+    grid-column: 2;}
+#prod02 { grid-row: 4;   
+    grid-column: 3;}
+#prod03 { grid-row: 4;   
+    grid-column: 4;}
+#prod04 { grid-row: 4;   
+    grid-column: 5;}

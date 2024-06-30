@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo",sans-serif;
+}
+
+#header{
+    height: 40px;
+    background-color: #f5f5f5;
+    display: flex;
+
+}
+
+
+#email
+{
+    fill: #252525;
+    height: 33%;
+    text-align: center;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 118px;
+}
+
+#arroba
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7px; 
+    padding-left: 6px;
+    font-size: 13px;
+    padding-right:45px; 
+}
+
+#Free
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7px; 
+    padding-left: 6px;
+    font-size: 13px;
+}
+
+#face
+{
+    fill: #252525;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 360px;
+}
+
+.X
+{
+    fill: #252525;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+.top_language{
+    display: inline-flex;
+}
+
+#Ingles{
+    display:flex;
+    padding-top: 4%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#Image{
+    margin-top: 10px;
+    padding-left: 30px;
+    height: 30%;
+    display: flex;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    display:inline-block;
+  }
+  
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista1 {
+    display: inline-block;
+  }
+  
+  .lista1:hover {
+    background: #333;
+  }
+  
+  .lista1:hover .lista2 {
+    display: block;
+  }
+  
+  .lista2 {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  
+  .lista-link {
+    background: #555;
+    display: block;
+  }
+  
+  .link {
+    display:block !important;
+  }
+  
+  .lista-link:hover {
+    background: #666;
+  }
+
+#Login{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#Person{
+    height: 30%;
+    margin-top: 10px;    
+    padding-left: 5%;
+}
